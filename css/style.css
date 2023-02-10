@@ -1,29 +1,30 @@
-body{
-  text-align:center;
+body {
+  text-align: center;
   background-color: #B4D3B2;
 }
-form{
+
+form {
   color: #FF7F50;
   font-size: 20px;
 }
 
-input{
-	text-align:center;
-	color: black;
-	width: 250px;
-	padding: 5px;
-  	margin: 5px;
-	border-color: black;
-	background-color: #A7C7E7;
+input {
+  text-align: center;
+  color: black;
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+  border-color: black;
+  background-color: #A7C7E7;
 }
 
 input[type=submit], input[type=reset] {
   width: 250px;
-  background-color: #ff6961;
+  background-color: #FF6961;
   color: white;
   padding: 14px 20px;
   border-radius: 4px;
-  border-color: #ff7f50;
+  border-color: #FF7F50;
   padding: 5px;
   margin: 5px;
 }
@@ -31,9 +32,10 @@ input[type=submit], input[type=reset] {
 
 @media only screen and (max-width: 768px) {
   body {
-    	font-size: 10px;
-	}
+    font-size: 10px;
+  }
+	
   input {
-	width: 70%;
-	}
+    width: 70%;
+  }
 }
