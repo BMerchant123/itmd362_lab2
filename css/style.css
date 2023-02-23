@@ -15,8 +15,7 @@ label {
 
 input {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   color: black;
   width: 250px;
   padding: 5px;
